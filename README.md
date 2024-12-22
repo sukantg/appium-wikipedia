@@ -1,3 +1,5 @@
+This project uses Javascript, Webdriver IO and Appium to run automated tests on the Wikipedia Android App
+
 Install webdriver IO on the command line : \
 npm install --save-dev @wdio/cli
 
