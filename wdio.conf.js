@@ -1,6 +1,6 @@
 exports.config = {
     runner: 'local',
-    specs: ['./test/specs/**/*.js'],
+    specs: ['./tests/specs/**/*.js'],
     capabilities: [
       {
         platformName: 'Android',

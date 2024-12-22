@@ -16,5 +16,3 @@ appium
 
 Run All Webdriver IO Tests on the Wikipedia App:\
 npx wdio run wdio.conf.js
-
-
