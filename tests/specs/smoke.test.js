@@ -8,6 +8,6 @@ describe('Load APK and Verify App Launch', () => {
         console.log('Current Activity:', currentActivity);
 
         // Validate if the app's activity matches the expected one
-        expect(currentActivity).toContain('MainActivity'); // Replace 'MainActivity' with the actual activity name if known
+        expect(currentActivity).toContain('MainActivity'); 
     });
 });

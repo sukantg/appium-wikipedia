@@ -8,7 +8,7 @@ describe('Task 3: Disable Settings Options', () => {
         await settingsIcon.click();
 
         // Disable all options (toggle switches)
-        const allSwitches = await $$('~Settings Toggle'); // Replace with locator for toggle
+        const allSwitches = await $$('~Settings Toggle'); //locator for toggle
         for (let toggle of allSwitches) {
             const isEnabled = await toggle.getAttribute('checked');
             if (isEnabled === 'true') {
@@ -17,7 +17,7 @@ describe('Task 3: Disable Settings Options', () => {
         }
 
         // Return to the home page
-        const backButton = await $('~Back'); // Replace with locator for the back button
+        const backButton = await $('~Back'); //locator for the back button
         await backButton.click();
     });
 });
